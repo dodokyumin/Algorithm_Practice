@@ -1,4 +1,4 @@
-package baekjoon_10828_Stack;
+package baekjoon;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
