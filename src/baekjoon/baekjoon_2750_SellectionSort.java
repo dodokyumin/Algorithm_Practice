@@ -1,4 +1,4 @@
-package baekjoon_2750_SelectionSort;
+package baekjoon;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,12 +13,12 @@ public class baekjoon_2750_SellectionSort {
 		
 		int[] arr = new int[N];
 	
-		//array에 담기,
+		//array�뿉 �떞湲�,
 		for(int i = 0; i < N; i++) {
 			arr[i] = Integer.parseInt(br.readLine());
-		}
+		} 
 		
-		//정렬 시작  마지막 요소는 정렬 필요x -> .length-1
+		//�젙�젹 �떆�옉  留덉�留� �슂�냼�뒗 �젙�젹 �븘�슂x -> .length-1
 		for(int i = 0; i < arr.length - 1; i++) {
 			int minIndex = i;
 			
@@ -37,7 +37,7 @@ public class baekjoon_2750_SellectionSort {
 
 	}
 	
-	//자리 교체하는 메서드
+	//�옄由� 援먯껜�븯�뒗 硫붿꽌�뱶
 	private static void swap(int[] a, int i, int j) {
 		int temp = a[i];
 		a[i] = a[j];
