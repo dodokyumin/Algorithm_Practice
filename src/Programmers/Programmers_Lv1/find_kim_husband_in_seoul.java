@@ -1,10 +1,10 @@
-package Programmers_Lv1;
+package Programmers.Programmers_Lv1;
 
 public class find_kim_husband_in_seoul {
 
 	public static void main(String[] args) {
 		find_kim_husband_in_seoul fkhis = new find_kim_husband_in_seoul();
-		String[] names = {"디두", "kim", "귬귬"};
+		String[] names = {"john", "kim", "doe"};
 		System.out.println(fkhis.solution(names));
 		
 	}
