@@ -36,7 +36,6 @@ public class trinary_digit_reverse {
 				n = n / 3;
 			}
 
-			
 			//해당 자릿수의 3의 n제고
 			double digit = trinary.size() - 1;
 
